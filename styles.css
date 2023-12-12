@@ -1,0 +1,11 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.frame {
+    width: 640px;
+    margin: 0 auto;
+}
