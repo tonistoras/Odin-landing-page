@@ -11,7 +11,7 @@ body {
 }
 
 .frame {
-    width: 740px;
+    width: 840px;
     margin: 0 auto;
 }
 
@@ -21,7 +21,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 50px 0 50px;
+    padding: 0 60px 0 60px;
     
 }
 
@@ -29,7 +29,7 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-    padding: 50px;
+    padding: 60px;
     gap: 20px;
 }
 
@@ -40,6 +40,33 @@ body {
     border-radius: 5px;
     padding: 5px 15px;
 
+}
+
+.information {
+    background-color: white;
+    color: #1F2937;
+    text-align: center;
+    padding: 30px 60px 40px 60px;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 150px;
+}
+
+.card img {
+    aspect-ratio: 1/1;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-top: 0;
 }
 
 
